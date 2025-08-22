@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  line-height: 1.6;
+  padding: 5px;
+}
+
+.chess {
+  display: flex;
+}
+
+.sq {
+  width: 13%;
+  height: 92px;
+  background-color: rgb(228, 226, 226);
+  border: 1px solid rgb(37, 21, 21);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sq:nth-child(odd) {
+  background-color: rgba(20, 17, 17, 0.578);
+}
+
+.sq img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
